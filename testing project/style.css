@@ -1,0 +1,130 @@
+/* style.css */
+
+/* General body styling */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling for login, sign up, and menu */
+.login_cont, .sign_up_cont, .menu_cont {
+    background-color: #1E1E1E;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Input field styling */
+input[type="email"], input[type="password"], input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #BB86FC;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #BB86FC;
+    color: #121212;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9A67EA;
+}
+
+/* Link styling */
+a {
+    color: #03DAC6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph styling */
+p {
+    margin-top: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* Box container for links (menu page) */
+.menu_links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Box styling for each link (menu page) */
+.menu_box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.menu_box:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Link styling inside boxes (menu page) */
+.menu_box a {
+    color: #03DAC6;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu_box a:hover {
+    text-decoration: underline;
+}
