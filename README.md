@@ -2,6 +2,7 @@
 
 Team Members: 
 Sabri belgacem - ahmed ben salem - hamza beji - Mohamed ali riahi -nader saadaui
+
 📌 Project Title: TravelEase Booking Manager
 🎯 Purpose
 TravelEase Booking Manager is designed to simplify travel planning for individuals and groups. By combining intuitive booking tools with personalized itinerary management, users can effortlessly organize their trips, manage reservations, and stay updated on all travel-related details in one place.
